@@ -145,6 +145,7 @@
     <Compile Include="Controllers\FocusAreasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\RoadmapController.cs" />
+    <Compile Include="Controllers\TeamsController.cs" />
     <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Controllers\ValueDriversController.cs" />
     <Compile Include="Data\ERDSPortalDBContext.cs" />
@@ -219,6 +220,7 @@
     <Content Include="Views\FocusAreas\Details.cshtml" />
     <Content Include="Views\FocusAreas\Edit.cshtml" />
     <Content Include="Views\FocusAreas\Index.cshtml" />
+    <Content Include="Views\Teams\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
