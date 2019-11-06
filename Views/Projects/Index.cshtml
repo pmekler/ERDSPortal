@@ -1,0 +1,80 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    <script type="text/javascript">
+        $(document).ready(function() {
+    $('#example tr').click(function() {
+        var href = $(this).find("a").attr("href");
+        if(href) {
+            window.location = href;
+        }
+    });
+});
+    </script>
+}
+
+<div class="container mt-2">
+    <div class="row">
+        <div class="col-lg-12">
+            <table class="table table-sm">
+                <thead>
+                    <tr>
+                        <th scope="col medium"><h6 class="green-txt text-left">Project Delivery</h6></th>
+                        <th scope="col">
+                            <div>Capabilities</div>
+                            <img src="@Url.Content("~/Content/Images/banner-red.png")">
+                        </th>
+                        <th scope="col">
+                            <div>Time to Market</div>
+                            <img src="@Url.Content("~/Content/Images/banner-grey.png")">
+                        </th>
+                        <th scope="col">
+                            <div>Cost / Quality</div>
+                            <img src="@Url.Content("~/Content/Images/banner-blue.png")">
+                        </th>
+                        <th scope="col">
+                            <div> Innovation </div>
+                            <img src="@Url.Content("~/Content/Images/banner-green.png")">
+                        </th>
+                        <th scope="col">
+                            <div>Users</div>
+                            <img src="@Url.Content("~/Content/Images/banner-yellow.png")">
+                        </th>
+                        <th scope="col">Go-Live</th>
+                        <th scope="col">Service Categories</th>
+                        <th class="text-left" scope="col large"><h6>Project Description</h6></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="table-proj-delivery">PSI LBGC Case Mgmt.</th>
+                        <td class="table-capabilities">Reuse</td>
+                        <td class="table-time-to-market"></td>
+                        <td class="table-cost-quality"></td>
+                        <td class="table-innovation"></td>
+                        <td class="table-users">100</td>
+                        <td class="table-go-live-color">FEB</td>
+                        <td class="table-service-categories">PLM, SaMD</td>
+                        <td class="small-font table-proj-desc">Specific Implant solution improvement & case type for new product launch</td>
+
+                    </tr>
+                    <tr>
+                        <td class="table-proj-delivery"><a id="tablelink" href="@Url.Action("ThingworxDashboards", "Projects")">Thingworx Dashboards Go-Live</a></th>
+                        <td class="table-capabilities"></td>
+                        <td class="table-time-to-market"></td>
+                        <td class="table-cost-quality"></td>
+                        <td class="table-innovation"></td>
+                        <td class="table-users"></td>
+                        <td class="table-go-live-color">OCT</td>
+                        <td class="table-service-categories">MB Tech</td>
+                        <td class="small-font table-proj-desc">Thingworx change dashboards
+                    </tr>
+                    </a>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
