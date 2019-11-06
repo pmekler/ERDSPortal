@@ -21,7 +21,7 @@
             </div>
             <div class="navbar-collapse collapse justify-content-center order-1" id="collapsingNavbar">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
+                    <li class="nav-item @(ViewContext.RouteData.Values["Controller"].ToString() == "Home" ? "active" : "")">
                         <a class="nav-link" href=@Url.Action("Index", "Home")><span><b>HOME</b></span></a>
                     </li>
                     <li class="nav-item">
@@ -29,7 +29,8 @@
                            href="https://jnj.leankit.com/board/752116895"><span><b>ROAD MAP</b></span></a>
                     </li>
                     <li class="nav-item dropdown" style="padding-top:7px">
-                        <a class="nav-item jnj dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin:0px;padding:0px;"><span><b>SERVICES</b></span></a>
+                        <a class="nav-item jnj dropdown-toggle @(ViewContext.RouteData.Values["Controller"].ToString() == "Services" ? "jnjactive" : "")" href="#" role="button" id="dropdownMenuLink" 
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin:0px;padding:0px;"><span><b>SERVICES</b></span></a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                             <a class="dropdown-item" href=@Url.Action("Index", "Services")>Overview</a>
                             <a class="dropdown-item" href=@Url.Action("MBTech", "Services")>MB Tech</a>
@@ -43,13 +44,13 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href=@Url.Action("Index", "Events")><span><b>EVENTS</b></span></a>
+                        <a class="nav-link @(ViewContext.RouteData.Values["Controller"].ToString() == "Events" ? "active" : "")" href=@Url.Action("Index", "Events")><span><b>EVENTS</b></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href=@Url.Action("Index", "News")><span><b>RECENT NEWS</b></span></a>
+                        <a class="nav-link @(ViewContext.RouteData.Values["Controller"].ToString() == "News" ? "active" : "")" href=@Url.Action("Index", "News")><span><b>RECENT NEWS</b></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href=@Url.Action("Index", "Projects")><span><b>PROJECTS</b></span></a>
+                        <a class="nav-link @(ViewContext.RouteData.Values["Controller"].ToString() == "Projects" ? "active" : "")" href=@Url.Action("Index", "Projects")><span><b>PROJECTS</b></span></a>
                     </li>
                     <form class="search">
                         <div class="searchbar">
