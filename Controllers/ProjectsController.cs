@@ -6,10 +6,14 @@ using System.Web.Mvc;
 
 namespace ERDSPortal.Controllers
 {
-    public class TeamsController : Controller
+    public class ProjectsController : Controller
     {
-        // GET: Teams
+        // GET: Projects
         public ActionResult Index()
+        {
+            return View();
+        }
+        public ActionResult ThingworxDashboards()
         {
             return View();
         }
