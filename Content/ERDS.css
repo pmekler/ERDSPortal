@@ -1,0 +1,223 @@
+
+.nav-item {
+  border: none;
+  background-color: inherit;
+  padding: 0px 28px;
+  font-size: 22px;
+  font-family: Agency FB;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.nav-item span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.nav-item span:after {
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.nav-item:hover span {
+  background-color: #B22;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: white;
+  letter-spacing: 4px;
+}
+
+.nav-item:hover span:after {
+  opacity: 1;
+}
+
+.jnj {
+  color: grey;
+}
+
+.jnjactive {
+  color: black;
+}
+
+.rectangle {
+  height: 6px;
+  background-color: #000;
+}
+
+.searchbar {
+  margin-top: 10px;
+  padding: 0 10px;
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.search_input {
+  color: black;
+  padding-left: 17px;
+  border: 0;
+  outline: 0;
+  font-family: Agency FB;
+  font-size: 22px;
+  font-weight: bold;
+  background: none;
+  width: 0;
+  caret-color: transparent;
+  line-height: 2px;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover>.search_input {
+  width: 200px;
+  caret-color: black;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover>.search_icon {
+
+  top: 20px;
+  height: 20px;
+  color: #e74c3c;
+}
+
+.search_icon {
+  width: 40px;
+  padding-top: 7px;
+  padding-left: 2px;
+  float: right;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: black;
+}
+
+.carousel-indicators {
+  bottom: -30px;
+  list-style: none;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+
+  height: 10px;
+  background-color: #fff;
+  position: relative;
+  padding: 35px;
+}
+
+.carousel-indicators img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.card {
+  margin: 5px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.carousel-caption {
+  color: black;
+  background-color: lightgrey;
+  opacity: 0.7;
+}
+
+.carousel-item img {
+  width: 100%;
+}
+
+.jnjbuttonhead, .jnjbuttonhead:hover {
+  font-family: Agency FB;
+  color: darkred;
+}
+
+.jnjbutton, .jnjbutton:hover {
+  font-family: Agency FB;
+  color: black;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+.jnjmap {
+  font-family: Agency FB;
+  color: lightgrey;
+}
+
+.dropdown-item:focus {
+  background-color: #B22;
+}
+
+#previewinner {
+   margin-bottom: 80px;
+}
+
+#preview {
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  padding-right: 0px;
+}
+
+#test {
+  width: 96%;
+  height: 100%;
+  background-color: lightgrey;
+  position: absolute;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#header {
+  font-family: Agency FB;
+  color: darkred;
+}
+
+#subheader {
+  font-family: Agency FB;
+}
+
+#cardlink {
+  color: black;
+}
+
+#teamheader {
+  font-family: Agency FB;
+  font-size: 48px;
+}
+
+#teamsubheader {
+  font-family: Agency FB;
+  font-size: 36px;
+  color: #c63939;
+}
+
+#dropdownMenuLink:hover {
+  color: black;
+}

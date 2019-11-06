@@ -1,0 +1,79 @@
+td {
+    font-size: 0.7em;
+    background-color: #d9d9d9;
+    text-align: center;
+}
+
+th {
+    font-size: 0.59em;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+th .medium {
+    font-size: 0.8em;
+}
+th .large {
+    font-size: 0.9em;
+}
+
+.green-txt {
+    color: #548235;
+}
+
+.banner-green {
+    color: #9bb571;
+}
+.banner-yellow {
+    color: #e2b971;
+}
+.banner-blue {
+    color: #0087bf;
+}
+.banner-dark {
+    color: #3d5558;
+}
+.banner-red {
+    color: #b04f5f;
+}
+
+.table-proj-delivery {
+    color: #0087bf;
+    text-align: left;
+}
+.table-capabilities {
+    background-color: #ecd4d8;
+}
+.table-time-to-market {
+    background-color: #bfd0d3;
+}
+.table-cost-quality {
+    background-color: #9fe4ff;
+}
+.table-innovation {
+    background-color: #b9d692;
+}
+.table-users {
+    background-color: #fcdea2;
+}
+.table-go-live-color {
+    background-color: #92D050;
+}
+/* .table-service-categories {
+} */
+.table-proj-desc {
+    color: #0087bf;
+    font-size: 0.65em;
+    text-align: left;
+}
+
+th img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 3.2em;
+    width: 4.5em;
+}
+
+#tablelink, tablelink:hover {
+    color: #0087bf;
+}
