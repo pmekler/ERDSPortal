@@ -1,4 +1,4 @@
-﻿@using Grid_XML_MVC.Models;
+﻿@using ERDSPortal.Models
 @model IEnumerable<Events>
 
 @{
@@ -33,14 +33,14 @@
                 <th>Name</th>
                 <th>Country</th>
             </tr>
-            @foreach (Events event in Model)
+            @foreach (Events eventInstance in Model)
         {
         <tr>
-            <td>@event.EventID</td>
-            <td>@event.Title</td>
-            <td>@event.Date</td>
-            <td>@event.Location</td>
-            <td>@event.Details</td>
+            <td>@eventInstance.EventID</td>
+            <td>@eventInstance.Title</td>
+            <td>@eventInstance.Date</td>
+            <td>@eventInstance.Location</td>
+            <td>@eventInstance.Details</td>
         </tr>
         }
         </table>

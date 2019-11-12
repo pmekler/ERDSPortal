@@ -19,7 +19,7 @@ namespace ERDSPortal.Controllers
             List<Models.Events> events = new List<Models.Events>();
             XmlDocument doc = new XmlDocument();
             doc.Load(Server.MapPath("~/Content/events.xml"));
-            foreach (XmlNode node in doc.SelectNodes("/Events/Event"))
+            foreach (XmlNode node in doc.SelectNodes("/EVENTLIST/EVENT"))
             {
                 events.Add(new Models.Events
                 {
