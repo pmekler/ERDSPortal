@@ -52,11 +52,11 @@
                     <li class="nav-item">
                         <a class="nav-link @(ViewContext.RouteData.Values["Controller"].ToString() == "Projects" ? "active" : "")" href=@Url.Action("Index", "Projects")><span><b>PROJECTS</b></span></a>
                     </li>
-                    <form class="search">
+                    @*<form class="search">
                         <div class="searchbar">
                             <input class="search_input" type="text" name="" placeholder="SEARCH">
                             <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
-                    </form>
+                    </form>*@
                 </ul>
             </div>
             <span class="w-10 order-lg-last"></span>
@@ -86,7 +86,7 @@
                                 <a class="jnjbuttonhead" href=@Url.Action("Index", "Services")><b style="font-size:20px;">Teams</b></a> <br> <a class="jnjbutton" href=@Url.Action("Index", "Services")>Overview</a> <br>
                                 <a class="jnjbutton" href=@Url.Action("MBTech", "Services")>MB Tech</a> <br> <a class="jnjbutton" href=@Url.Action("PortfolioManagement", "Services")>SO/RTE Portfolio Management</a> <br>
                                 <a class="jnjbutton" href=@Url.Action("ModelBasedPLM", "Services")>SO/RTE Model Based PLM</a> <br> <a class="jnjbutton" href=@Url.Action("RegulatoryClinical", "Services")>SO/RTE lg Regulatory</a> <br>
-                                <a class="jnjbutton" href=@Url.Action("MaintainedServices", "Services")>SO Maintained Services</a> <br> <a class="jnjbutton" href=@Url.Action("SoftwareMedDevice", "Services")>SO/RTO Software as a Medical Device</a> <br>
+                                <a class="jnjbutton" href=@Url.Action("MaintainedServ ices", "Services")>SO Maintained Services</a> <br> <a class="jnjbutton" href=@Url.Action("SoftwareMedDevice", "Services")>SO/RTO Software as a Medical Device</a> <br>
                                 <a class="jnjbutton" href=@Url.Action("CAx", "Services")>SO/RTO CAx</a> <br> <a class="jnjbutton" href=@Url.Action("AppMaintenance", "Services")>SO Application Maintenance</a>
                             </div>
                             <div class="col-md-2">

@@ -156,6 +156,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Accomplishment.cs" />
+    <Compile Include="Models\Events.cs" />
     <Compile Include="Models\FocusArea.cs" />
     <Compile Include="Models\ValueDriver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -170,6 +171,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\ERDS.css" />
+    <Content Include="Content\events.xml" />
     <Content Include="Content\Images\1.PNG" />
     <Content Include="Content\Images\antonio.png" />
     <Content Include="Content\Images\appmaint.PNG" />
@@ -289,6 +291,8 @@
     <Content Include="Views\News\Index.cshtml" />
     <Content Include="Views\Events\Index.cshtml" />
     <Content Include="Views\Projects\ThingworxDashboards.cshtml" />
+    <Content Include="Views\Test\Welcome.cshtml" />
+    <Content Include="Views\Events\Event.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

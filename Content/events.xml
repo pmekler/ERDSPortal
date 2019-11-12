@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EVENTLIST>
+  <EVENT>
+    <ID>1</ID>
+    <TITLE>Cannonball PI Planning</TITLE>
+    <DATE>December 12-13, 2019</DATE>
+    <LOCATION>1301 Goshen Pkwy, West Chester PA 19380</LOCATION>
+    <DETAILS>MBTech will have their next program increment planning
+    for the next upcoming iterations in 2020.</DETAILS>
+  </EVENT>
+  <EVENT>
+    <ID>2</ID>
+    <TITLE>Example Event Title</TITLE>
+    <DATE>Example Date</DATE>
+    <LOCATION>Example Location</LOCATION>
+    <DETAILS>Example event details</DETAILS>
+  </EVENT>
+  <EVENT>
+    <ID>3</ID>
+    <TITLE>Example Event Title</TITLE>
+    <DATE>Example Date</DATE>
+    <LOCATION>Example Location</LOCATION>
+    <DETAILS>Example event details</DETAILS>
+  </EVENT>
+</EVENTLIST>

@@ -20,9 +20,11 @@ namespace ERDSPortal.Controllers
         // 
         // GET: /Test/Welcome/ 
 
-        public string Welcome()
+        public ActionResult Welcome(int? id)
         {
-            return "This is the Welcome action method...";
+            string eventText = "abc";
+            ViewBag.eventText = id;
+            return View();
         }
     }
 }
