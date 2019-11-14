@@ -19,7 +19,10 @@
             @Html.DisplayNameFor(model => model.TeamName)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Summary)
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Details)
         </th>
 
         <th>Focus Areas</th>
@@ -38,7 +41,10 @@
         @Html.DisplayFor(modelItem => item.TeamName)
     </td>
     <td>
-        @Html.DisplayFor(modelItem => item.Summary)
+        @Html.DisplayFor(modelItem => item.Title)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Details)
     </td>
     <td>
         @foreach (var vd in item.FocusAreas)

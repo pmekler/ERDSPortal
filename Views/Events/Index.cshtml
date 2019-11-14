@@ -11,7 +11,7 @@
                 <div class="hovereffect">
                     <img src="@Url.Content("~/Content/Images/event4.png")" class="img-responsive d-block eventcard" alt="Event">
                     <div class="overlay">
-                        <a href="@Url.Action("Event", "Events")">
+                        <a href="@Url.Action("Event", "Events", new {id = 1})">
                             <button type="button" class="btn eventbutton" data-toggle="modal" data-target="#exampleModal">
                                 <b>SEE DETAILS</b>
                             </button>
@@ -23,7 +23,7 @@
                 <div class="hovereffect">
                     <img src="@Url.Content("~/Content/Images/event2.png")" class="img-responsive d-block eventcard" alt="Event">
                     <div class="overlay">
-                        <a href="@Url.Action("Event", "Events")">
+                        <a href="@Url.Action("Event", "Events", new {id = 2})">
                             <button type="button" class="btn eventbutton" data-toggle="modal" data-target="#exampleModal">
                                 <b>SEE DETAILS</b>
                             </button>

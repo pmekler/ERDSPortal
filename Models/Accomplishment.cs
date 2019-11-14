@@ -17,7 +17,9 @@ namespace ERDSPortal.Models
 
         [DisplayName("Team Name")]
         public string TeamName { get; set; }
-        public string Summary { get; set; }
+        public string Title { get; set; }
+        public string Details { get; set; }
+        public string LinkedContent { get; set; }
 
         public virtual ICollection<ValueDriver> ValueDrivers { get; set; }
 

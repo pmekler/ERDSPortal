@@ -1,15 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using ERDSPortal.Data;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace ERDSPortal.Controllers
 {
     public class HomeController : Controller
     {
+        private ERDSPortalDBContext db = new ERDSPortalDBContext();
+
         public ActionResult Index()
         {
+            ViewBag.Accomplishments = db.Accomplishments.ToList();
             return View();
         }
 

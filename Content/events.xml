@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <EVENTLIST>
-  <EVENT>
+  <EVENT id="1">
     <ID>1</ID>
     <TITLE>Cannonball PI Planning</TITLE>
     <DATE>December 12-13, 2019</DATE>
@@ -8,14 +8,14 @@
     <DETAILS>MBTech will have their next program increment planning
     for the next upcoming iterations in 2020.</DETAILS>
   </EVENT>
-  <EVENT>
+  <EVENT id="2">
     <ID>2</ID>
     <TITLE>Example Event Title</TITLE>
     <DATE>Example Date</DATE>
     <LOCATION>Example Location</LOCATION>
     <DETAILS>Example event details</DETAILS>
   </EVENT>
-  <EVENT>
+  <EVENT id="3">
     <ID>3</ID>
     <TITLE>Example Event Title</TITLE>
     <DATE>Example Date</DATE>
