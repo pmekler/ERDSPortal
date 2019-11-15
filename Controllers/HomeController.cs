@@ -6,7 +6,7 @@ namespace ERDSPortal.Controllers
 {
     public class HomeController : Controller
     {
-        private ERDSPortalDBContext db = new ERDSPortalDBContext();
+        private readonly ERDSPortalDBContext db = new ERDSPortalDBContext();
 
         public ActionResult Index()
         {
