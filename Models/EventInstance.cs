@@ -12,5 +12,6 @@ namespace ERDSPortal.Models
         public string Date { get; set; }
         public string Location { get; set; }
         public string Details { get; set; }
+        public string Photo { get; internal set; }
     }
 }

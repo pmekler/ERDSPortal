@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <EVENTLIST>
   <EVENT id="1">
-    <ID>1</ID>
     <TITLE>Cannonball PI Planning</TITLE>
+    <PHOTO></PHOTO>
     <DATE>December 12-13, 2019</DATE>
     <LOCATION>1301 Goshen Pkwy, West Chester PA 19380</LOCATION>
     <DETAILS>MBTech will have their next program increment planning
     for the next upcoming iterations in 2020.</DETAILS>
   </EVENT>
-  <EVENT id="2">
-    <ID>2</ID>
+  <EVENT>
     <TITLE>Example Event Title</TITLE>
+    <PHOTO></PHOTO>
     <DATE>Example Date</DATE>
     <LOCATION>Example Location</LOCATION>
     <DETAILS>Example event details</DETAILS>
   </EVENT>
   <EVENT id="3">
-    <ID>3</ID>
     <TITLE>Example Event Title</TITLE>
+    <PHOTO></PHOTO>
     <DATE>Example Date</DATE>
     <LOCATION>Example Location</LOCATION>
     <DETAILS>Example event details</DETAILS>

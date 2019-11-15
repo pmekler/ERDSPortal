@@ -25,6 +25,7 @@ namespace ERDSPortal.Controllers
              {
                     EventID = int.Parse(eventInstance["ID"].InnerText),
                     Title = eventInstance["TITLE"].InnerText,
+                    Photo = eventInstance["PHOTO"].InnerText,
                     Date = eventInstance["DATE"].InnerText,
                     Location = eventInstance["LOCATION"].InnerText,
                     Details = eventInstance["DETAILS"].InnerText
