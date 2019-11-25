@@ -3,7 +3,7 @@
   <EVENT id="1">
     <ID>1</ID>
     <TITLE>Cannonball PI Planning</TITLE>
-    <PHOTO></PHOTO>
+    <PHOTO>~/Content/Images/event4.png</PHOTO>
     <DATE>December 12-13, 2019</DATE>
     <LOCATION>1301 Goshen Pkwy, West Chester PA 19380</LOCATION>
     <DETAILS>MBTech will have their next program increment planning
@@ -12,7 +12,7 @@
   <EVENT id="2">
     <ID>2</ID>
     <TITLE>Example Event Title</TITLE>
-    <PHOTO></PHOTO>
+    <PHOTO>~/Content/Images/event2.png</PHOTO>
     <DATE>Example Date</DATE>
     <LOCATION>Example Location</LOCATION>
     <DETAILS>Example event details</DETAILS>
