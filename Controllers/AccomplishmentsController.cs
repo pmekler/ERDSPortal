@@ -50,7 +50,7 @@ namespace ERDSPortal.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "AccomplishmentId,Date,TeamName,Summary,ValueDriversSelection")] Accomplishment accomplishment)
+        public ActionResult Create([Bind(Include = "AccomplishmentId,Date,TeamName,Title,Details,ValueDriversSelection")] Accomplishment accomplishment)
         {
 
             if (ModelState.IsValid)
@@ -104,7 +104,7 @@ namespace ERDSPortal.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "AccomplishmentId,Date,TeamName,Summary")] Accomplishment accomplishment)
+        public ActionResult Edit([Bind(Include = "AccomplishmentId,Date,TeamName,Title, Details")] Accomplishment accomplishment)
         {
             if (ModelState.IsValid)
             {
